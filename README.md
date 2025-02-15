@@ -33,3 +33,64 @@ alien
 Вводим команду `sudo systemctl enable docker --now`
 ![image](https://github.com/user-attachments/assets/287a68d1-55c4-406e-825d-d5ac439f95ab)
 Команда запускает службу Docker и настраивает её на автоматический запуск при загрузке системы.
+
+sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
+![image](https://github.com/user-attachments/assets/72550e5c-4fb3-40ec-96c6-d8c99b29d53a)
+
+sudo chmod +x /usr/bin/docker-compose
+![image](https://github.com/user-attachments/assets/e5497e06-eb0f-41b4-a1b7-42bf2c254357)
+
+docker-compose –version
+![image](https://github.com/user-attachments/assets/871ff733-5072-4bc7-96b5-39d83e9311f6)
+
+git clone https://github.com/skl256/grafana_stack_for_docker.git
+![image](https://github.com/user-attachments/assets/15d4502c-f3e5-4ba4-afaf-73d243190702)
+
+Sudo yum install git
+![image](https://github.com/user-attachments/assets/df8f78a8-8a58-483d-a12e-623b36cec565)
+![image](https://github.com/user-attachments/assets/9fa562a1-5c0c-4db1-a624-149eb3dd17e6)
+
+git clone https://github.com/skl256/grafana_stack_for_docker.git
+![image](https://github.com/user-attachments/assets/7521a563-ac6e-45d5-ae89-d584cbcfe16f)
+
+cd grafana_stack_for_docker
+![image](https://github.com/user-attachments/assets/f02817ea-1b21-46d1-b85c-d6ed2c4c58b9)
+
+sudo mkdir -p /mnt/common_volume/swarm/grafana/config
+![image](https://github.com/user-attachments/assets/0444a475-5273-4f9d-93c9-090160a22802)
+
+sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}
+![image](https://github.com/user-attachments/assets/99ad189b-e8f8-4b5e-88b4-b82946a3933f)
+
+touch /mnt/common_volume/grafana/grafana-config/grafana.ini
+![image](https://github.com/user-attachments/assets/97829281-3ab5-4f47-aff2-1b552be40386)
+
+cp config/* /mnt/common_volume/swarm/grafana/config/
+![image](https://github.com/user-attachments/assets/e7f265ba-2dbe-46f7-b86d-3e05708979dd)
+
+mv grafana.yaml docker-compose.yaml
+![image](https://github.com/user-attachments/assets/db04fae1-5b0b-4973-8b52-fb758e4860ee)
+
+sudo docker compose up -d
+![image](https://github.com/user-attachments/assets/0d922031-6943-4f10-87c2-8788f808d9ed)
+![image](https://github.com/user-attachments/assets/c5e08ad0-76f1-42cf-82e6-5e5960569437)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/8919cfdb-2226-4308-9f52-6ae4e0a3d7c5)
