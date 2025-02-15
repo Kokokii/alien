@@ -33,3 +33,4 @@
 Вводим команду `sudo systemctl enable docker --now`
 ![image](https://github.com/user-attachments/assets/287a68d1-55c4-406e-825d-d5ac439f95ab)
 Команда запускает службу Docker и настраивает её на автоматический запуск при загрузке системы.
+
