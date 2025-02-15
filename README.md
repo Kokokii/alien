@@ -74,23 +74,3 @@ mv grafana.yaml docker-compose.yaml
 sudo docker compose up -d
 ![image](https://github.com/user-attachments/assets/0d922031-6943-4f10-87c2-8788f808d9ed)
 ![image](https://github.com/user-attachments/assets/c5e08ad0-76f1-42cf-82e6-5e5960569437)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/8919cfdb-2226-4308-9f52-6ae4e0a3d7c5)
