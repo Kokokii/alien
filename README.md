@@ -36,25 +36,31 @@ alien
 
 sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 ![image](https://github.com/user-attachments/assets/72550e5c-4fb3-40ec-96c6-d8c99b29d53a)
+Эта команда позволяет загрузить последнюю версию Docker Compose и заменить существующую, если она есть
 
 sudo chmod +x /usr/bin/docker-compose
 ![image](https://github.com/user-attachments/assets/e5497e06-eb0f-41b4-a1b7-42bf2c254357)
+Эта команда необходима, если при использовании утилиты возникают проблемы с правами на выполнение.
 
 docker-compose –version
 ![image](https://github.com/user-attachments/assets/871ff733-5072-4bc7-96b5-39d83e9311f6)
+Позволяет посмотреть версию команды docker-compose.
 
 git clone https://github.com/skl256/grafana_stack_for_docker.git
 ![image](https://github.com/user-attachments/assets/15d4502c-f3e5-4ba4-afaf-73d243190702)
+ Клонирует репозиторий по ссылке на компьютер. При клонировании на локальную машину копируются файлы и папки проекта, а также вся его история
 
 Sudo yum install git
 ![image](https://github.com/user-attachments/assets/df8f78a8-8a58-483d-a12e-623b36cec565)
 ![image](https://github.com/user-attachments/assets/9fa562a1-5c0c-4db1-a624-149eb3dd17e6)
+Устанавливает Git и его зависимости в системе
 
 git clone https://github.com/skl256/grafana_stack_for_docker.git
 ![image](https://github.com/user-attachments/assets/7521a563-ac6e-45d5-ae89-d584cbcfe16f)
 
 cd grafana_stack_for_docker
 ![image](https://github.com/user-attachments/assets/f02817ea-1b21-46d1-b85c-d6ed2c4c58b9)
+
 
 sudo mkdir -p /mnt/common_volume/swarm/grafana/config
 ![image](https://github.com/user-attachments/assets/0444a475-5273-4f9d-93c9-090160a22802)
@@ -73,4 +79,23 @@ mv grafana.yaml docker-compose.yaml
 
 sudo docker compose up -d
 ![image](https://github.com/user-attachments/assets/0d922031-6943-4f10-87c2-8788f808d9ed)
+
 ![image](https://github.com/user-attachments/assets/c5e08ad0-76f1-42cf-82e6-5e5960569437)
+
+![image](https://github.com/user-attachments/assets/ae333ae7-c7d6-4cff-a702-4d2a5d6290be)
+
+sudo docker-compose
+![image](https://github.com/user-attachments/assets/c026aa83-9115-4081-b294-4dd842c84389)
+
+sudo docker-compose stop
+![image](https://github.com/user-attachments/assets/b674ea95-c5c1-472a-8cfb-515818f988ee)
+
+sudo docker-compose down
+![image](https://github.com/user-attachments/assets/1c4e88ff-820a-42a6-95d7-1d012e207e58)
+
+sudo docker-compose up -d
+![image](https://github.com/user-attachments/assets/ff7713d8-687e-42c1-95c6-d88415b3d615)
+
+sudo docker-compose ps
+![image](https://github.com/user-attachments/assets/37229b19-7687-4709-8486-be069817937a)
+
