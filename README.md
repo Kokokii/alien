@@ -106,11 +106,14 @@ sudo docker-compose ps
  git clone https://github.com/Kokokii/alien.git
 ![image](https://github.com/user-attachments/assets/44959cf5-e038-46e1-b20a-36a9fb923d23)
 Загружаем клонирование файлов с git hub
-
+cd /mnt/common_volume/swarm/grafana/config
 ![image](https://github.com/user-attachments/assets/ce62a03b-7f62-4637-9f80-9f79fa174995)
 
-
+ls
 ![image](https://github.com/user-attachments/assets/235f255f-ae09-43e3-9b23-47f3deaa21b7)
+
+cp docker-compose.yaml docker-compose.yaml1
+![image](https://github.com/user-attachments/assets/8fa68f2d-1c0d-4062-bafd-c7a8c0fd9713)
 
 
 
