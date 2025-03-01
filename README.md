@@ -110,6 +110,8 @@ sudo docker-compose ps
 ![image](https://github.com/user-attachments/assets/ce62a03b-7f62-4637-9f80-9f79fa174995)
 
 
+![image](https://github.com/user-attachments/assets/235f255f-ae09-43e3-9b23-47f3deaa21b7)
+
 
 
 
