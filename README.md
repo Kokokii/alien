@@ -102,3 +102,14 @@ sudo docker-compose up -d
 sudo docker-compose ps
 ![image](https://github.com/user-attachments/assets/37229b19-7687-4709-8486-be069817937a)
  вывел список запущенных контейнеров с их статусами и портами
+
+ git clone https://github.com/Kokokii/alien.git
+![image](https://github.com/user-attachments/assets/44959cf5-e038-46e1-b20a-36a9fb923d23)
+Загружаем клонирование файлов с git hub
+
+![image](https://github.com/user-attachments/assets/ce62a03b-7f62-4637-9f80-9f79fa174995)
+
+
+
+
+
