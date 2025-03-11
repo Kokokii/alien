@@ -108,10 +108,11 @@ sudo docker-compose ps
 Загружаем клонирование файлов с git hub
 cd /mnt/common_volume/swarm/grafana/config
 ![image](https://github.com/user-attachments/assets/ce62a03b-7f62-4637-9f80-9f79fa174995)
+после выполнения этой команды все файлы из каталога config будут скопированы в каталог /mnt/common_volume/swarm/grafana/config/.
 
 ls
 ![image](https://github.com/user-attachments/assets/235f255f-ae09-43e3-9b23-47f3deaa21b7)
-
+выводит список всех файлов
 cp docker-compose.yaml docker-compose.yaml1
 ![image](https://github.com/user-attachments/assets/8fa68f2d-1c0d-4062-bafd-c7a8c0fd9713)
 
