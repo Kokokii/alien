@@ -112,6 +112,9 @@ cd /mnt/common_volume/swarm/grafana/config и cp prometheus.yaml prometheus.yaml
 ![image](https://github.com/user-attachments/assets/9a2661dc-7bcd-4218-8fcf-94a9332b9090)
 
 
+![image](https://github.com/user-attachments/assets/1941abe6-9fa1-4f74-a0c1-7593f4093ef4)
+
+
 
 
 
