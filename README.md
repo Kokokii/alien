@@ -102,19 +102,11 @@ sudo docker-compose up -d
 sudo docker-compose ps
 ![image](https://github.com/user-attachments/assets/37229b19-7687-4709-8486-be069817937a)
  вывел список запущенных контейнеров с их статусами и портами
+переход в папку cd grafana_stack_for_docker и выполнение комнады git clone 
+![image](https://github.com/user-attachments/assets/d14452b0-964c-4ade-93d6-b7b89ef26d72)
 
- git clone https://github.com/Kokokii/alien.git
-![image](https://github.com/user-attachments/assets/44959cf5-e038-46e1-b20a-36a9fb923d23)
-Загружаем клонирование файлов с git hub
-cd /mnt/common_volume/swarm/grafana/config
-![image](https://github.com/user-attachments/assets/ce62a03b-7f62-4637-9f80-9f79fa174995)
-после выполнения этой команды все файлы из каталога config будут скопированы в каталог /mnt/common_volume/swarm/grafana/config/.
+![image](https://github.com/user-attachments/assets/577fffcb-216a-4d3d-9fb2-ed0d68aec8f0)
 
-ls
-![image](https://github.com/user-attachments/assets/235f255f-ae09-43e3-9b23-47f3deaa21b7)
-выводит список всех файлов
-cp docker-compose.yaml docker-compose.yaml1
-![image](https://github.com/user-attachments/assets/8fa68f2d-1c0d-4062-bafd-c7a8c0fd9713)
 
 
 
