@@ -102,10 +102,17 @@ sudo docker-compose up -d
 sudo docker-compose ps
 ![image](https://github.com/user-attachments/assets/37229b19-7687-4709-8486-be069817937a)
  вывел список запущенных контейнеров с их статусами и портами
-переход в папку cd grafana_stack_for_docker и выполнение комнады git clone 
+переход в папку cd grafana_stack_for_docker и выполнение комнады git clone https://github.com/Kokokii/alien.git
 ![image](https://github.com/user-attachments/assets/d14452b0-964c-4ade-93d6-b7b89ef26d72)
 
+cp docker-compose.yaml docker-compose.yaml1
 ![image](https://github.com/user-attachments/assets/577fffcb-216a-4d3d-9fb2-ed0d68aec8f0)
+
+cd /mnt/common_volume/swarm/grafana/config и cp prometheus.yaml prometheus.yaml1
+![image](https://github.com/user-attachments/assets/9a2661dc-7bcd-4218-8fcf-94a9332b9090)
+
+
+
 
 
 
