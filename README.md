@@ -113,7 +113,15 @@ cd /mnt/common_volume/swarm/grafana/config и cp prometheus.yaml prometheus.yaml
 
 ![image](https://github.com/user-attachments/assets/7fc01573-83ea-4df2-9470-a391c3a4a95f)
 
+![image](https://github.com/user-attachments/assets/f62d3233-7626-41b2-ab60-e24ce2cb2184)
 
+![image](https://github.com/user-attachments/assets/6df28b24-0e6b-40b6-a0d7-0f27bcebfcd6)
+
+echo -e "# TYPE light_metric1 gauge\nlight_metric1 39" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus
+![image](https://github.com/user-attachments/assets/4a0acb90-5482-4a16-abdf-2db75ab02663)
+
+Ввел connect null value (always)
+![image](https://github.com/user-attachments/assets/79cf5f79-6490-495a-bc1f-7315fc71fbf5)
 
 
 
