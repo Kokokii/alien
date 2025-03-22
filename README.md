@@ -111,8 +111,8 @@ cp docker-compose.yaml docker-compose.yaml1
 cd /mnt/common_volume/swarm/grafana/config и cp prometheus.yaml prometheus.yaml1
 ![image](https://github.com/user-attachments/assets/9a2661dc-7bcd-4218-8fcf-94a9332b9090)
 
+![image](https://github.com/user-attachments/assets/7fc01573-83ea-4df2-9470-a391c3a4a95f)
 
-![image](https://github.com/user-attachments/assets/1941abe6-9fa1-4f74-a0c1-7593f4093ef4)
 
 
 
